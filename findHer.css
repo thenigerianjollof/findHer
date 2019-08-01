@@ -1,0 +1,54 @@
+html{
+
+
+}
+
+
+#head{
+  color:#09C6F9;
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 100px;
+}
+.head{
+  color:tomato;
+  font-family:"Pacifico",cursive;
+  font-size: 60px;
+  text-align:center;
+  text-underline-position: alphabetic;
+  font-family:sans-serif;
+}
+#logo{
+  width: 70px;
+  height: 60px;
+  position: relative;
+  left: 30px;
+  top: 50px;
+  object-fit:scale-down;
+  object-position: 10px 10%;
+}
+
+#buy{
+  color:#09C6F9;
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+
+}
+body {
+  background color:black;
+}
+.slidecontainer{
+
+}
+.heading{
+  color:white;
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 85px;
+
+}
+
+.paragraph{
+  color:#09C6F9;
+  font-family: font-family: 'Saira Stencil One', cursive;
+font-family: 'Crimson Text', serifS;
+  font-size: 50px;
+  text-align:left;

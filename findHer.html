@@ -1,34 +1,68 @@
 <!DOCTYPE html>
+<script>
+  var i =0;
+  var img =[];
+  var secs =5000
+
+  // make Image list
+  img[0]='1.png';
+  img[1]= '2.png';
+  img[2]= '3.png';
+  img[3]= '4.png';
+  img[4]= '5.png';
+  //make a function that changes the images
+  function slideshow(){
+    document.slide.src = img[i];
+
+    if(i < img.length - 1){
+      i++;
+    } else {
+      i = 0;
+    }
+
+    setTimeout( "slideshow()", secs);
+  }
+  window.onload = slideshow;
+
+</script>
+
 <html>
-  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
   <link rel="stylesheet" type="text/css" href="findHer.css">
   <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap"rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Saira+Stencil+One&display=swap" rel="stylesheet">
-  <script src= "findHer.js"></script>
-  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Saira+Stencil+One&display=swap" rel="stylesheet">
   <head>
     <img  src="fhlogo.png" id="logo" alt="FIND HER LOGO"><center>
       <div id="head">findHer
       </div><center>
   </head>
-<body bgcolor="#000000">
-   <h1><div class="slidecontainer" style="max-width:1280px">
-     <img class="theSlides" src="1.png" style="width:100%">
-     <img class="theSlides" src="2.png" style="width:100%">
-     <img class="theSlides" src="3.png" style="width:100%">
-   </div>
-     <center><div id="buy"> SAFETY IS A CLICK AWAY</div></center></h1>
 
-    <center><h2 id="about" class="heading">ABOUT</h2></center>
+
+<body bgcolor="#000000">
+   <h1>
+     <center><div><img name= "slide" width="1280" height="720"></div></center>
+     <center><div id="buy"> SAFETY IS A CLICK AWAY</div></center>
+   </h1>
+
+
+   <h2 id="about" >
+     <center class="heading">ABOUT</center>
+      <center><img src="" width="1280" height ="720"></center>
+    </h2>
     <p class= "paragraph"> yada yada yada</p>
 
-    <center><h3 id="forfuture" class="heading">FUTURE CONSIDERATIONS</h3></center>
+    <h3 id="forfuture" >
+      <center class="heading">FUTURE CONSIDERATIONS</center>
+      <center><img name="slidetwo" width="1280" height ="720"></center>
+    </h3>
     <p class="paragraph">yada yada yada</p>
-    <center><h4 id= "partner" class="heading">OUR PARTNERS</h4></center>
+    <h4 id= "partner">
+      <center class="heading">OUR PARTNERS</center>
+      <center><img src="" width="1280" height ="720"></center>
+    </h4>
     <p class ="paragraph"> yada yada yada</p>
+    <h5><center> CONTACT US</center>
+
+    </h5>
 </body>
 </html>

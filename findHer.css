@@ -51,7 +51,7 @@ body {
 font-family: 'Crimson Text', serifS;
   font-size: 50px;
   text-align:left;
-  
+}
 .dropbutton{
   font-family: 'Saira Stencil One', cursive;
   background-color: #09C6F9;
@@ -61,7 +61,7 @@ font-family: 'Crimson Text', serifS;
   border: none;
   position: fixed;
   top: 20px;
-  right: 94px;
+  right: 70px;
   z-index: 99;
 }
 
@@ -102,4 +102,3 @@ color: black}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-

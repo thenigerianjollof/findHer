@@ -12,4 +12,3 @@ function scrollpartner(){
   var yay = document.getElementById('partner');
   yay.scrollIntoView();
 }
-
